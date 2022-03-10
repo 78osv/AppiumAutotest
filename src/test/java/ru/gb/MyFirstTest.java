@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 
 import java.net.URL;
 
-
 public class MyFirstTest {
 
     @Test
@@ -16,7 +15,6 @@ public class MyFirstTest {
 
         // Устанавливаем capabilities.
         DesiredCapabilities capabilities = new DesiredCapabilities();
-
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("deviceName", "Pixel");
         capabilities.setCapability("platformVersion", "10");
